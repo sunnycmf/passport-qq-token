@@ -1,6 +1,6 @@
 {
   "name": "passport-qq-token",
-  "version": "3.0.6",
+  "version": "1.0.1",
   "description": "QQ token authentication strategy for Passport",
   "main": "lib/index.js",
   "scripts": {
@@ -21,9 +21,9 @@
     "identity"
   ],
   "author": {
-    "name": "Nicholas Penree",
-    "email": "nick@penree.com",
-    "url": "http://www.penree.com/"
+    "name": "Sunny Chan",
+    "email": "sunnycmf@gmail.com",
+    "url": ""
   },
   "license": "MIT",
   "bugs": {
