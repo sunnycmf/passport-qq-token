@@ -113,7 +113,7 @@ export default class QQTokenStrategy extends OAuth2Strategy {
           let json = JSON.parse(body);
           let profile = {
             provider: 'qq',
-            id: '',
+            id: openid,
             displayName: json.nickname || '',
             gender: json.gender || '',
             photos: [{
