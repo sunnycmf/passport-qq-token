@@ -117,7 +117,7 @@ export default class QQTokenStrategy extends OAuth2Strategy {
             displayName: json.nickname || '',
             gender: json.gender || '',
             photos: [{
-              value: json.figureurl_2 || ''
+              value: json.figureurl_qq_2 || ''
             }],
             _raw: body,
             _json: json
